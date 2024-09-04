@@ -21,7 +21,7 @@ import operator
 from collections import OrderedDict, defaultdict
 
 from odoo import models
-from odoo.tools import LastOrderedSet, OrderedSet
+from odoo.tools.misc import LastOrderedSet, OrderedSet
 
 from .exception import NoComponentError, RegistryNotReadyError, SeveralComponentError
 
